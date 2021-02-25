@@ -1,9 +1,12 @@
+import Banner from './Banner'
+import Categories from './Categories';
 
 function Main() {
   return (
-    <main>
-      <p>this is the main the page</p>
-    </main>
+    <>
+      <Banner/>
+      <Categories />
+    </>
   )
 }
 
