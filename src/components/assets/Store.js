@@ -1,7 +1,7 @@
 const STORE = {
   courses: [
       {
-          id: "1",
+          id: 1,
           course_name: "Facebook Ads: Domina estrategias avanzadas",
           category: "Marketing Digital",
           sub_category: "Marketing Digital",
@@ -19,7 +19,7 @@ const STORE = {
           ],
       },
       {
-          id: "2",
+          id: 2,
           course_name: "Corte y confección: Diseña tu primera prenda",
           category: "Manualidades",
           sub_category: "Bordado y costura",
@@ -32,7 +32,7 @@ const STORE = {
           users: "1299"
       },
       {
-          id: "3",
+          id: 3,
           course_name: "Técnicas completas de ilustración Kawaii",
           category: "Ilustración y Dibujo",
           sub_category: "Ilustración Digital",
@@ -45,7 +45,7 @@ const STORE = {
           users: "795"
       },
       {
-          id: "4",
+          id: 4,
           course_name: "Nutrición saludable: Alimenta una vida mejor",
           category: "Lifestyle",
           sub_category: "Lifestyle",
@@ -58,7 +58,7 @@ const STORE = {
           users: "2889"
       },
       {
-          id: "5",
+          id: 5,
           course_name: "Facebook e Instagram Ads: Campañas desde cero",
           category: "Marketing Digital",
           sub_category: "Marketing Digital",
@@ -71,7 +71,7 @@ const STORE = {
           users: "3900"
       },
       {
-          id: "6",
+          id: 6,
           course_name: "Guión y Dirección para Cine",
           category: "Video",
           sub_category: "Producción",
@@ -84,7 +84,7 @@ const STORE = {
           users: "849"
       },
       {
-          id: "7",
+          id: 7,
           course_name: "Doblaje de personajes cartoon con Luis Carreño",
           category: "Video",
           sub_category: "Locución",
@@ -97,7 +97,7 @@ const STORE = {
           users: "142"
       },
       {
-          id: "8",
+          id: 8,
           course_name: "Trendhunting: Tendencias para la innovación",
           category: "Negocios",
           sub_category: "Innovación",
@@ -110,7 +110,7 @@ const STORE = {
           users: "504"
       },
       {
-          id: "9",
+          id: 9,
           course_name: "Mindfulness y bienestar: Revoluciona tu empresa",
           category: "Negocios",
           sub_category: "Liderazgo",
@@ -123,7 +123,7 @@ const STORE = {
           users: "239"
       },
       {
-          id: "10",
+          id: 10,
           course_name: "Fotografía de producto y técnicas de iluminación",
           category: "Fotografía",
           sub_category: "Fundamentos de fotografía",
@@ -136,7 +136,7 @@ const STORE = {
           users: "2818"
       },
       {
-          id: "11",
+          id: 11,
           course_name: "Actúa con tu voz: doblaje para personajes",
           category: "Video",
           sub_category: "Locución",
@@ -149,7 +149,7 @@ const STORE = {
           users: "7997"
       },
       {
-          id: "12",
+          id: 12,
           course_name: "Power Manager: Alcanza tus objetivos",
           category: "Negocios",
           sub_category: "Liderazgo",
@@ -162,7 +162,7 @@ const STORE = {
           users: "388"
       },
       {
-          id: "13",
+          id: 13,
           course_name: "Ideación y creatividad desde cero",
           category: "Marketing Digital",
           sub_category: "Publicidad",
@@ -175,7 +175,7 @@ const STORE = {
           users: "501"
       },
       {
-          id: "14",
+          id: 14,
           course_name: "Introducción a las metodologías de innovación",
           category: "Negocios",
           sub_category: "Innovación",
@@ -188,7 +188,7 @@ const STORE = {
           users: "2340"
       },
       {
-          id: "15",
+          id: 15,
           course_name: "Edición, postproducción y montaje audiovisual",
           category: "Video",
           sub_category: "Postproducción",
@@ -201,7 +201,7 @@ const STORE = {
           users: "1093"
       },
       {
-          id: "16",
+          id: 16,
           course_name: "Dirección de Fotografía Avanzada para Cine",
           category: "Video",
           sub_category: "Producción",
@@ -214,7 +214,7 @@ const STORE = {
           users: "348"
       },
       {
-          id: "17",
+          id: 17,
           course_name: "Dibujo y pintura: Técnicas contemporáneas",
           category: "Ilustración y Dibujo",
           sub_category: "Dibujo",
@@ -227,7 +227,7 @@ const STORE = {
           users: "1235"
       },
       {
-          id: "18",
+          id: 18,
           course_name: "Branding e identidad visual para startups",
           category: "Diseño",
           sub_category: "Branding",
@@ -240,7 +240,7 @@ const STORE = {
           users: "1588"
       },
       {
-          id: "19",
+          id: 19,
           course_name: "Postproducción Fine Art avanzada",
           category: "Fotografía",
           sub_category: "Retoque Fotográfico",
@@ -253,7 +253,7 @@ const STORE = {
           users: "458"
       },
       {
-          id: "20",
+          id: 20,
           course_name: "Doblaje y actuación de voz con Mario Arvizu",
           category: "Video",
           sub_category: "Locución",
@@ -266,7 +266,7 @@ const STORE = {
           users: "3948"
       },
       {
-          id: "21",
+          id: 21,
           course_name: "El arte de la escritura con Majo Moirón",
           category: "Escritura",
           sub_category: "Escritura",
@@ -279,7 +279,7 @@ const STORE = {
           users: "4859"
       },
       {
-          id: "22",
+          id: 22,
           course_name: "Excel avanzado para expertos",
           category: "Negocios",
           sub_category: "Data",
@@ -292,7 +292,7 @@ const STORE = {
           users: "988"
       },
       {
-          id: "23",
+          id: 23,
           course_name: "Taller de técnicas de negociación",
           category: "Negocios",
           sub_category: "Ventas",
@@ -305,7 +305,7 @@ const STORE = {
           users: "341"
       },
       {
-          id: "24",
+          id: 24,
           course_name: "Redacción creativa publicitaria",
           category: "Marketing Digital",
           sub_category: "Publicidad",
@@ -318,7 +318,7 @@ const STORE = {
           users: "241"
       },
       {
-          id: "25",
+          id: 25,
           course_name: "Animação Frame a Frame no Adobe Animate",
           category: "Animación & 3D",
           sub_category: "Animación 2D",
