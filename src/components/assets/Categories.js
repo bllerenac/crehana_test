@@ -1,16 +1,22 @@
 import STORE from '../Store';
 import { useState } from "react";
+import anuncement from '../../images/icons/anuncement.png';
 
 function Categories (){
 
   const [categories , setcategories] = useState(OnlyCategory);
 
   return(
-    <section>
+    <section className="category_container">
       <h4>Title H4 - Categorias</h4>
-      <div>
+      <div className="category_categories">
         {categories.map(category => {
-          return <a href="#" key={category} className="categories_filter" >{category}</a>;
+          return (
+            <div className="categories_filter">
+              <img src={anuncement}/>
+              <a href="#" key={category} >{category}</a>
+            </div>
+          );
         })}
       </div>
     </section>
