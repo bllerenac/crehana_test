@@ -1,4 +1,7 @@
-.button{
+.button{ 
+  display: flex;
+  align-items: center;
+  height: 40px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 800;
@@ -24,6 +27,7 @@
 }
 
 .medium{
+  height: 48px;
   padding: 14px 40px;
   font-size: 18px;
   line-height: 20px;
