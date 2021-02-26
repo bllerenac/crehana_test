@@ -1,0 +1,31 @@
+.filter_container{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 24px;
+}
+
+.selectpicker_container{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+    .selectpicker_container h5{
+      margin: 0px;
+    }
+
+    .selectpicker{
+      height: 48px;
+      min-width: 212px;
+      border-radius: 10px;
+      padding: 12px 12px;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: 0.1px;
+      color: #8D8D9D;
+      outline: none;
+    }
+    .selectpicker::-ms-expand{ 
+      display: none;
+    }

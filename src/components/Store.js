@@ -6,17 +6,12 @@ const STORE = {
           category: "Marketing Digital",
           sub_category: "Marketing Digital",
           level: "Avanzado",
+          username: "laia.cardona",
           real_price: "65",
           price: "19",
           discount: "71",
           score: "5",
           users: "429",
-          comments: [
-            {
-              username: "laia.cardona",
-              comment: "",
-            }
-          ],
       },
       {
           id: 2,

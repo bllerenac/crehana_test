@@ -1,10 +1,10 @@
-import STORE from '../Store';
+import { OnlyCategory } from './utils';
 import { useState } from "react";
 import anuncement from '../../images/icons/anuncement.png';
 
 function Categories (){
 
-  const [categories , setcategories] = useState(OnlyCategory);
+  const [categories , setcategories] = useState(OnlyCategory("category" ));
 
   return(
     <section className="category_container">
@@ -12,9 +12,9 @@ function Categories (){
       <div className="category_categories">
         {categories.map(category => {
           return (
-            <div className="categories_filter">
-              <img src={anuncement}/>
-              <a href="#" key={category} >{category}</a>
+            <div key={category} className="categories_filter">
+              <img alt="Category"src={anuncement}/>
+              <a href="#">{category}</a>
             </div>
           );
         })}
@@ -23,15 +23,7 @@ function Categories (){
   )
 }
 
-function OnlyCategory() {
-  const array_cat =  STORE.courses.map(course => {return course.category})
 
-  function onlyUnique(value, index, self) { 
-    return self.indexOf(value) === index;
-  }
-  var unique = array_cat.filter( onlyUnique );
-  return  unique;
-}
 
 
 export default Categories;
