@@ -7,16 +7,24 @@
   margin: 40px 0px;
 }
 
-.course_content h5,h6,p{
-  margin: 0px;
-}
-
 .course_content{
+  display: flex;
+  flex-direction: column;
   width: 270px;
-  height: 368px;
+  height: fit-content;
   background: #F6F7F9;
   border-radius: 10px;
 }
+
+.course_content h4,h5,h6,p{
+  margin: 0px;
+}
+
+.course_description{
+  padding: 0px 15.5px;
+}
+
+/*course image and tag*/
   .course_content figure{
     margin: 0px;
     width: 270px;
@@ -24,4 +32,81 @@
     background: #E8EAF0;
     border-radius: 10px 10px 0px 0px;
   }
+    .course_content figure img{
+      border-radius: 10px 10px 0px 0px;
+    }
+    .course_content-dsct{
+      display: inline;
+      position: relative;
+      padding: 4px 8px;
+      top: -97%;
+      left: 3%;
+      height: 24px;
+      border-radius: 5px;
+      color: #FFFFFF;
+      background: #8D8D9D;
+    }
+
+/*course Name and Teacher*/
+  .course_content h5{
+    font-size: 16px;
+    line-height: 20px;
+    color: #181B32;
+    margin: 16px 0px 8px 0px;
+  }
+
+  .course_content h6{
+    font-size: 14px;
+    line-height: 20px;
+    color: #181B32;
+  }
+
+/*course information*/
+.course_content-information{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin: 8px 0px 12px 0px;
+}
+.course_content-information p{
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  color: #8D8D9D;
+}
+
+/*course cost*/
+.course_content-cost{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 12px;
+  gap: 8px;
+}
+  .course_content-cost h4{
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.4px;
+    color: #181B32;
+  }
   
+  .course_content-cost p{
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.1px;
+    text-decoration-line: line-through;
+    color: #8D8D9D;
+  }
+
+.course_content button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 16px 0px;
+}

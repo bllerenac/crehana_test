@@ -12,6 +12,7 @@ const STORE = {
           discount: "71",
           score: "5",
           users: "429",
+          image: "https://res.cloudinary.com/dzifwhokp/image/upload/c_scale,h_160,w_270/v1614614832/Crehana/734365241560283563_jesb8d.jpg",
       },
       {
           id: 2,
@@ -24,7 +25,8 @@ const STORE = {
           price: "14.99",
           discount: "70",
           score: "3.98",
-          users: "1299"
+          users: "1299",
+          image: "https://res.cloudinary.com/dzifwhokp/image/upload/c_scale,h_160,w_270/v1614614832/Crehana/734365241560283563_jesb8d.jpg",
       },
       {
           id: 3,
@@ -37,7 +39,8 @@ const STORE = {
           price: "14",
           discount: "74",
           score: "4.9",
-          users: "795"
+          users: "795",
+          image: "https://res.cloudinary.com/dzifwhokp/image/upload/c_scale,h_160,w_270/v1614614832/Crehana/734365241560283563_jesb8d.jpg",
       },
       {
           id: 4,
@@ -50,7 +53,9 @@ const STORE = {
           price: "14.99",
           discount: "70",
           score: "5",
-          users: "2889"
+          users: "2889",
+          image: "https://res.cloudinary.com/dzifwhokp/image/upload/c_scale,h_160,w_270/v1614614832/Crehana/734365241560283563_jesb8d.jpg",
+
       },
       {
           id: 5,
@@ -63,7 +68,9 @@ const STORE = {
           price: "19.99",
           discount: "60",
           score: "5",
-          users: "3900"
+          users: "3900",
+          image: "https://res.cloudinary.com/dzifwhokp/image/upload/c_scale,h_160,w_270/v1614614832/Crehana/734365241560283563_jesb8d.jpg",
+
       },
       {
           id: 6,
@@ -76,7 +83,8 @@ const STORE = {
           price: "14",
           discount: "56",
           score: "3.6",
-          users: "849"
+          users: "849",
+          image: "https://res.cloudinary.com/dzifwhokp/image/upload/c_scale,h_160,w_270/v1614614832/Crehana/734365241560283563_jesb8d.jpg",
       },
       {
           id: 7,
@@ -89,7 +97,8 @@ const STORE = {
           price: "19",
           discount: "71",
           score: "5",
-          users: "142"
+          users: "142",
+          image: "https://res.cloudinary.com/dzifwhokp/image/upload/c_scale,h_160,w_270/v1614614832/Crehana/734365241560283563_jesb8d.jpg",
       },
       {
           id: 8,
@@ -102,7 +111,8 @@ const STORE = {
           price: "19",
           discount: "66",
           score: "4.7",
-          users: "504"
+          users: "504",
+          image: "https://res.cloudinary.com/dzifwhokp/image/upload/c_scale,h_160,w_270/v1614614832/Crehana/734365241560283563_jesb8d.jpg",
       },
       {
           id: 9,
@@ -115,7 +125,8 @@ const STORE = {
           price: "17",
           discount: "71",
           score: "5",
-          users: "239"
+          users: "239",
+          image: "https://res.cloudinary.com/dzifwhokp/image/upload/c_scale,h_160,w_270/v1614614832/Crehana/734365241560283563_jesb8d.jpg",
       },
       {
           id: 10,
@@ -128,7 +139,8 @@ const STORE = {
           price: "14.99",
           discount: "70",
           score: "5",
-          users: "2818"
+          users: "2818",
+          image: "https://res.cloudinary.com/dzifwhokp/image/upload/c_scale,h_160,w_270/v1614614832/Crehana/734365241560283563_jesb8d.jpg",
       },
       {
           id: 11,
@@ -141,7 +153,9 @@ const STORE = {
           price: "19",
           discount: "71",
           score: "5",
-          users: "7997"
+          users: "7997",
+          image: "https://res.cloudinary.com/dzifwhokp/image/upload/c_scale,h_160,w_270/v1614614832/Crehana/734365241560283563_jesb8d.jpg",
+
       },
       {
           id: 12,
@@ -154,7 +168,9 @@ const STORE = {
           price: "19",
           discount: "66",
           score: "3.8",
-          users: "388"
+          users: "388",
+          image: "https://res.cloudinary.com/dzifwhokp/image/upload/c_scale,h_160,w_270/v1614614832/Crehana/734365241560283563_jesb8d.jpg",
+
       },
       {
           id: 13,
@@ -167,7 +183,9 @@ const STORE = {
           price: "19",
           discount: "66",
           score: "5",
-          users: "501"
+          users: "501",
+          image: "https://res.cloudinary.com/dzifwhokp/image/upload/c_scale,h_160,w_270/v1614614832/Crehana/734365241560283563_jesb8d.jpg",
+
       },
       {
           id: 14,
@@ -180,7 +198,9 @@ const STORE = {
           price: "14",
           discount: "78",
           score: "5",
-          users: "2340"
+          users: "2340",
+          image: "https://res.cloudinary.com/dzifwhokp/image/upload/c_scale,h_160,w_270/v1614614832/Crehana/734365241560283563_jesb8d.jpg",
+
       },
       {
           id: 15,
@@ -193,7 +213,9 @@ const STORE = {
           price: "14.99",
           discount: "75",
           score: "4.53",
-          users: "1093"
+          users: "1093",
+          image: "https://res.cloudinary.com/dzifwhokp/image/upload/c_scale,h_160,w_270/v1614614832/Crehana/734365241560283563_jesb8d.jpg",
+
       },
       {
           id: 16,
@@ -206,7 +228,9 @@ const STORE = {
           price: "19.99",
           discount: "60",
           score: "5",
-          users: "348"
+          users: "348",
+          image: "https://res.cloudinary.com/dzifwhokp/image/upload/c_scale,h_160,w_270/v1614614832/Crehana/734365241560283563_jesb8d.jpg",
+
       },
       {
           id: 17,
@@ -219,7 +243,9 @@ const STORE = {
           price: "14.99",
           discount: "70",
           score: "5",
-          users: "1235"
+          users: "1235",
+          image: "https://res.cloudinary.com/dzifwhokp/image/upload/c_scale,h_160,w_270/v1614614832/Crehana/734365241560283563_jesb8d.jpg",
+
       },
       {
           id: 18,
@@ -232,7 +258,9 @@ const STORE = {
           price: "14",
           discount: "75",
           score: "5",
-          users: "1588"
+          users: "1588",
+          image: "https://res.cloudinary.com/dzifwhokp/image/upload/c_scale,h_160,w_270/v1614614832/Crehana/734365241560283563_jesb8d.jpg",
+
       },
       {
           id: 19,
@@ -245,7 +273,9 @@ const STORE = {
           price: "14.99",
           discount: "70",
           score: "4.5",
-          users: "458"
+          users: "458",
+          image: "https://res.cloudinary.com/dzifwhokp/image/upload/c_scale,h_160,w_270/v1614614832/Crehana/734365241560283563_jesb8d.jpg",
+
       },
       {
           id: 20,
@@ -258,7 +288,9 @@ const STORE = {
           price: "14.99",
           discount: "75",
           score: "5",
-          users: "3948"
+          users: "3948",
+          image: "https://res.cloudinary.com/dzifwhokp/image/upload/c_scale,h_160,w_270/v1614614832/Crehana/734365241560283563_jesb8d.jpg",
+
       },
       {
           id: 21,
@@ -271,7 +303,9 @@ const STORE = {
           price: "14.99",
           discount: "75",
           score: "3.1",
-          users: "4859"
+          users: "4859",
+          image: "https://res.cloudinary.com/dzifwhokp/image/upload/c_scale,h_160,w_270/v1614614832/Crehana/734365241560283563_jesb8d.jpg",
+
       },
       {
           id: 22,
@@ -284,7 +318,9 @@ const STORE = {
           price: "14.99",
           discount: "70",
           score: "5",
-          users: "988"
+          users: "988",
+          image: "https://res.cloudinary.com/dzifwhokp/image/upload/c_scale,h_160,w_270/v1614614832/Crehana/734365241560283563_jesb8d.jpg",
+
       },
       {
           id: 23,
@@ -297,7 +333,9 @@ const STORE = {
           price: "9",
           discount: "84",
           score: "5",
-          users: "341"
+          users: "341",
+          image: "https://res.cloudinary.com/dzifwhokp/image/upload/c_scale,h_160,w_270/v1614614832/Crehana/734365241560283563_jesb8d.jpg",
+
       },
       {
           id: 24,
@@ -310,7 +348,9 @@ const STORE = {
           price: "19.99",
           discount: "60",
           score: "5",
-          users: "241"
+          users: "241",
+          image: "https://res.cloudinary.com/dzifwhokp/image/upload/c_scale,h_160,w_270/v1614614832/Crehana/734365241560283563_jesb8d.jpg",
+
       },
       {
           id: 25,
@@ -323,7 +363,9 @@ const STORE = {
           price: "14",
           discount: "74",
           score: "5",
-          users: "415"
+          users: "415",
+          image: "https://res.cloudinary.com/dzifwhokp/image/upload/c_scale,h_160,w_270/v1614614832/Crehana/734365241560283563_jesb8d.jpg",
+
       }
   ]
 }

@@ -2,7 +2,9 @@ import STORE from '../Store';
 
 function OnlyCategory(element) {
   const data = STORE.courses ;
+  // eslint-disable-next-line
   const array_cat =  data.map(course => {
+    // eslint-disable-next-line
     switch (element) {
       case "category":
         return course.category;
